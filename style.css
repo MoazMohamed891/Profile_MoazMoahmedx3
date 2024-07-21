@@ -1,0 +1,68 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #2421da;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    background-color: #3a308b;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 9px 9px rgba(11, 7, 77, 0.781);
+    z-index: 1;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    color: #0bd11c;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 1rem;
+}
+
+ul li:moaz {
+    width: 400px;
+    clip-path: circle();
+    color: blue;
+    background-color: blue !important;
+    width: 100px;
+    /* Adjust width of profile picture */
+    height: 100px;
+    /* Adjust height of profile picture */
+    border-radius: 50%;
+    /* Make the image round */
+    border: 2px solid #fff;
+    /* Add a white border around the image */
+    position: absolute;
+    /* Position the image absolutely within the header */
+    left: 50%;
+    /* Center horizontally */
+    transform: translateX(-50%);
+    /* Adjust horizontally centered position */
+    bottom: -50px;
+    /* Adjust vertically */
+    z-index: 1;
+    /* Ensure the image is above other content */
+}
+
+.moaz {
+    width: 400px;
+    clip-path: circle();
+    color: blue;
+    background-color: blue !important;
+}
